@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/messageView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/textViewMessage"
+        android:layout_width="284dp"
+        android:layout_height="54dp"
+        android:baselineAligned="false"
+        android:fadeScrollbars="false"
+        android:isScrollContainer="true"
+        android:scrollbars="vertical"
+        android:text="TextView"
+        android:textColor="#000000"
+        app:autoSizeTextType="none" />
+
+    <ImageButton
+        android:id="@+id/btnUpvote"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        app:srcCompat="@android:drawable/arrow_up_float" />
+
+    <ImageButton
+        android:id="@+id/btnDelete"
+        android:layout_width="41dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        app:srcCompat="@android:drawable/ic_delete" />
+
+    <ImageButton
+        android:id="@+id/btnReply"
+        android:layout_width="40dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        app:srcCompat="@android:drawable/ic_menu_revert" />
+
+</LinearLayout>
